@@ -9,7 +9,7 @@
 
     <div class="progress-bar labels">
         <div class="progress-bar labels spent-time">00:00:00:00</div>
-        <div class="progress-bar labels spent-time">50%</div>
+        <div class="progress-bar labels spent-time">66%</div>
         <div class="progress-bar labels spent-time">00:00:00:00</div>
     </div>
   </div>

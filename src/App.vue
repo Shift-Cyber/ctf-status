@@ -25,5 +25,7 @@ $color-blue-4: #182242;
 
 body {
   background-color: $color-base;
+  max-width: 760px;
+  margin: auto;
 }
 </style>
