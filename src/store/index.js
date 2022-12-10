@@ -260,6 +260,11 @@ export default createStore({
   getters: {
   },
   mutations: {
+    update_epoch_all(state) {
+      Object.keys(state.categories).forEach((key) => {
+        console.log(key, state.categories[key]);
+      });
+    },
   },
   actions: {
   },

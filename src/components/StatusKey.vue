@@ -23,7 +23,7 @@
 
     <div class="key">
         <i id=status class="fa-solid fa-circle disconnected" />
-        <p>Disconnected</p>
+        <p>Solver-Issue</p>
     </div>
   </div>
 </template>
@@ -53,7 +53,8 @@ $color-blue-4: #182242;
   flex-direction: row;
   justify-content: center;
 
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 40px;
 }
 
 .key {

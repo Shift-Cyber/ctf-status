@@ -11,6 +11,7 @@
 import ClockDisplay from '@/components/ClockDisplay.vue';
 import Statuskey from '@/components/StatusKey.vue';
 import CompetitionCategory from '@/components/CompetitionCategory.vue';
+import store from '@/store';
 
 export default {
   name: 'HomePage',
@@ -18,6 +19,9 @@ export default {
     ClockDisplay,
     CompetitionCategory,
     Statuskey,
+  },
+  mounted() {
+    store.commit('update_epoch_all');
   },
 };
 </script>
